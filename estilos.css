@@ -135,7 +135,7 @@ body{
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 580px){
     .textos-hero h1{
         width: 90%;
         font-size: 30px
