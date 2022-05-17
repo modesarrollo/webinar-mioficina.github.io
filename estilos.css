@@ -28,6 +28,14 @@ body{
 	text-align: center;
 }
 
+.title-webinar{
+	font-family:'Poppins', sans-serif;
+	color: #ffffff;
+	font-weight: 600;
+	text-align: center;
+	font-size: 90px;
+}
+
 .hero{
 	background-image: url("https://www.mioficina.co/sites/default/files/2022-05/bcp.jpg");
 	width: 100%;
@@ -50,8 +58,18 @@ body{
 	text-align: center;
 }
 
+.textos-hero{
+	height: 500px;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
 .textos-hero h1{
-	font-size: 60px;
+	font-size: 50px
 }
 
 .textos-hero p{
@@ -131,6 +149,7 @@ body{
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	padding: 12px;
 }
 
 /* RESPONSIVE */
@@ -142,6 +161,10 @@ body{
     }
     .textos-hero p{
         width: 60%;
-        font-size: 15px;
+        font-size: 12px;
+    }
+    .textos-hero H2{
+        width: 60%;
+        font-size: 60px;
     }
 }
