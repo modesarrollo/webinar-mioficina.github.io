@@ -132,3 +132,16 @@ body{
 	display: flex;
 	flex-direction: column;
 }
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 980px){
+    .textos-hero h1{
+        width: 90%;
+        font-size: 30px
+    }
+    .textos-hero p{
+        width: 60%;
+        font-size: 15px;
+    }
+}
