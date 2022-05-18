@@ -94,6 +94,19 @@ body{
 	font-weight: 700;
 }
 
+.row-button{
+	padding:25px;
+	left: 10px;
+	top: 5px;
+	display: flex;
+	max-width: 1000px;
+}
+
+table{
+	max-width: 200px;
+	text-align: center;
+}
+
 .contenedor-textos-agenda{
 	text-align: left;
 }
@@ -163,8 +176,8 @@ body{
         width: 60%;
         font-size: 12px;
     }
-    .textos-hero H2{
+    .textos-hero h2{
         width: 60%;
-        font-size: 60px;
+        font-size: 30px;
     }
 }
